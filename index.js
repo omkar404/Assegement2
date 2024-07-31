@@ -75,7 +75,10 @@ app.delete('/movies/:id', async (req, res) => {
     if (!movie) {
       return res.status(404).send();
     }
-    res.status(200).send(movie);
+    res.status(200).send({
+      data:movie,
+      message: 'Movie deleted successfully',
+    });
   } catch (err) {
     res.status(500).send(err);
   }
