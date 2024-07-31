@@ -8,6 +8,6 @@ mongoose.connect('mongodb://localhost:27017/moviesDB', {
   seedDB();
 }).catch(err => {
   console.error('Error connecting to MongoDB:', err.message);
-});
+});  
 
 

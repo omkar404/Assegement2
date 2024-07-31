@@ -6,7 +6,7 @@ const Movie = require('./movie');
 const app = express();
 const port = 3000;
 
-// Middleware 
+// Middleware
 app.use(bodyParser.json());
 
 // MongoDB connection
