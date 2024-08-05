@@ -9,7 +9,7 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "start": "node server",
+    "start": "node server", 
     "dev": "nodemon server.js"
   },
   "keywords": [],

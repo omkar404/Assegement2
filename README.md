@@ -5,7 +5,7 @@ Testing the API
 
 Method: POST
 URL: http://localhost:3000/movies
-Headers: Content-Type: application/json
+Headers: Content-Type: application/json 
 Body:
 json
 {
